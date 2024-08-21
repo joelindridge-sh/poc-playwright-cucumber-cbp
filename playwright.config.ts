@@ -1,6 +1,8 @@
 import { defineConfig } from "@playwright/test";
 import { defineBddConfig } from "playwright-bdd";
 
+require("dotenv").config();
+
 /**
  * See https://vitalets.github.io/playwright-bdd/#/configuration/options.
  */
