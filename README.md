@@ -62,7 +62,7 @@ Run a tag - runs a subset of tests tagged in feature files:
 Run headed - runs tests in the browser:
 `npx playwright test --grep "@ui" --headed`
 
-### Phase 1 & 2 combined
+### Phase 1 & 2 combined:
 
 Generate and then run - note, `&&` is only available using bash/cmd:
 
